@@ -451,14 +451,6 @@ section {
     gap: 10px;
 }
 
-/* .price-range {
-    font-weight: bold;
-    color: #00ffc3;
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-} */
-
-
 .pricing-card ul {
     list-style-type: disc;
     line-height: 1.8;
@@ -955,10 +947,6 @@ footer {
   font-size: 14px;
   letter-spacing: 0.5px;
 }
-
-
-
-
 
 
 /* Active Navigation Link */

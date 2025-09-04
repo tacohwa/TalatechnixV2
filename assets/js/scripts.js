@@ -308,34 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                     categoryWrapper.appendChild(imgGrid);
                 }
-
-               // If this category has a list
-            // if (category.list) {
-            //     const listGrid = document.createElement('div');
-            //     listGrid.style.display = "grid";
-            //     listGrid.style.gridTemplateColumns = "repeat(5, 1fr)"; // 5 items in a row
-            //     listGrid.style.gap = "15px";
-            //     listGrid.style.marginTop = "15px";
-
-            //     category.list.forEach(item => {
-            //         const card = document.createElement('div');
-            //         card.style.border = "1px solid #ddd";
-            //         card.style.borderRadius = "10px";
-            //         card.style.padding = "15px";
-            //         card.style.textAlign = "center";
-            //         card.style.background = "#f5f5f5ff";
-            //         card.style.color = "#333";
-            //         card.style.boxShadow = "0 2px 5px rgba(0,0,0,0.1)";
-            //         card.style.fontSize = "14px";
-            //         card.style.fontWeight = "500";
-
-            //         card.textContent = item;
-            //         listGrid.appendChild(card);
-            //     });
-
-            //     categoryWrapper.appendChild(listGrid);
-            // }
-
+            // If this category has a list
             if (category.list) {
                 const listGrid = document.createElement('div');
                 listGrid.classList.add("modal-list"); // ✅ use CSS class instead of inline
